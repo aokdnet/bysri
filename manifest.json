@@ -1,0 +1,21 @@
+{
+  "name": "ระบบเยี่ยมบ้านบ้านเขาบายศรี",
+  "short_name": "เยี่ยมบ้าน",
+  "description": "ระบบบันทึกการเยี่ยมบ้านนักเรียน โรงเรียนบ้านเขาบายศรี สพม.ชลบุรี ระยอง",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0D1A11",
+  "theme_color": "#0D1A11",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
