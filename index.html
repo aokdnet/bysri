@@ -1355,25 +1355,12 @@
 
 <header class="topbar">
   <div class="brand">
-    <div class="brand-logo">
-      <!-- SVG โลโก้โรงเรียนบ้านเขาบายศรี ธีมสีเขียวไบไม้ -->
-      <svg viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="48" fill="#0D1A11" stroke="#A3D169" stroke-width="3"/>
-        <!-- ดวงอาทิตย์/แสง -->
-        <path d="M50 10 L50 18 M50 82 L50 90 M10 50 L18 50 M82 50 L90 50 M20 20 L26 26 M74 74 L80 80 M20 80 L26 74 M74 26 L80 20" stroke="#C1E18B" stroke-width="3" stroke-linecap="round"/>
-        <!-- ภูเขา -->
-        <path d="M15 60 L35 35 L55 60" fill="#8CBF6E" opacity="0.9"/>
-        <path d="M45 60 L65 35 L85 60" fill="#A3D169" opacity="0.8"/>
-        <!-- บ้าน -->
-        <rect x="38" y="45" width="24" height="18" fill="#D2ED7E" stroke="#A3D169" stroke-width="2"/>
-        <polygon points="35,45 50,32 65,45" fill="#C1E18B" stroke="#A3D169" stroke-width="2"/>
-        <rect x="43" y="52" width="6" height="11" fill="#7DA64F"/>
-        <rect x="53" y="55" width="4" height="8" fill="#7DA64F"/>
-        <!-- พื้นหญ้า/คลื่น -->
-        <path d="M10 65 Q20 70 30 65 T50 65 T70 65 T90 65" fill="none" stroke="#A3D169" stroke-width="3" stroke-linecap="round"/>
-        <path d="M15 72 Q25 77 35 72 T55 72 T75 72 T85 72" fill="none" stroke="#C1E18B" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
+    <div class="brand">
+      <div class="brand-logo">
+        <!-- เปลี่ยนรูปโลโก้ตรงนี้: ใส่ path ของไฟล์ logo.png ที่ต้องการ -->
+        <img src="./logo.png" alt="โลโก้โรงเรียนบ้านเขาบายศรี" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+        <span class="logo-fallback" style="display:none;">จ</span>
+      </div>
     <div class="brand-text">
       <h1>โรงเรียนบ้านเขาบายศรี</h1>
       <p>117/9 หมู่ที่ 5 ต.พลูตาหลวง อ.สัตหีบ จ.ชลบุรี 20180 · ระบบเยี่ยมบ้าน</p>
